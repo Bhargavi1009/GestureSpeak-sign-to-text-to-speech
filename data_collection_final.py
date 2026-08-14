@@ -3,16 +3,12 @@ from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 import os as oss
 import traceback
-
-
-
 capture = cv2.VideoCapture(0)
 hd = HandDetector(maxHands=1)
 hd2 = HandDetector(maxHands=1)
 
 count = len(oss.listdir("D:\\sign2text_dataset_3.0\\AtoZ_3.0\\A\\"))
 c_dir = 'A'
-
 offset = 15
 step = 1
 flag=False
