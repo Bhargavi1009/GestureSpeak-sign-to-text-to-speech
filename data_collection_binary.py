@@ -6,18 +6,11 @@ import os, os.path
 from keras.models import load_model
 import traceback
 
-
-
-#model = load_model('C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\cnn9.h5')
-
 capture = cv2.VideoCapture(0)
 
 hd = HandDetector(maxHands=1)
 hd2 = HandDetector(maxHands=1)
-# #training data
-# count = len(os.listdir("D://sign2text_dataset_2.0/Binary_imgs//A"))
 
-#testing data
 count = len(os.listdir("D://test_data_2.0//Gray_imgs//A"))
 
 
