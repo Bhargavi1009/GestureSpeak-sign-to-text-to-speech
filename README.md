@@ -167,11 +167,6 @@ So when model will classify [aemnst] in one single class using mathematical oper
 
 -Finally, we got **97%** Accuracy (with and without clean background and proper lightning conditions) through our method. And if the background is clear and there is good lightning condition then we got even **99%** accurate results 
 
-![2022-11-01 (2)](https://user-images.githubusercontent.com/99630855/201489689-3adeacf0-ca19-471d-8942-cf7effc6296a.png)
-![2022-11-01 (3)](https://user-images.githubusercontent.com/99630855/201489695-d14822c4-3a48-41c3-9cde-8fac4d835f65.png)
-![2022-11-01 (4)](https://user-images.githubusercontent.com/99630855/201489697-168c8ca3-e4b3-4fc5-9e3a-97b239971c27.png)
-![2022-11-01 (5)](https://user-images.githubusercontent.com/99630855/201489700-78b38657-16c0-45ac-88ec-ef06ada7870e.png)
-
 **Text To Speech Translation:**
 
 The model translates known gestures into words. we have used pyttsx3 library to convert the recognized words into the appropriate speech. The text-to-speech output is a simple workaround, but it's a useful feature because it simulates a real-life dialogue. 
